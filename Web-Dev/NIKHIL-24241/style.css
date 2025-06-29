@@ -1,0 +1,82 @@
+.hello-button {
+  border: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.greeting {
+  font-size: larger;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.toggle-box {
+  width: 200px;
+  height: 100px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10px 0 10px;
+  display: none;
+}
+
+.toggle-btn {
+  margin: 10px;
+  margin-left: 0;
+  padding: 10px 20px 10px 20px;
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+h2 {
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  text-decoration: underline;
+}
+
+.input-box {
+  padding: 8px;
+  width: 20%;
+  font-size: 18px;
+}
+
+.add-button,
+.delete-btn {
+  padding: 10px 14px;
+  margin-left: 20px;
+  font-size: 18px;
+}
+
+ul {
+  margin-top: 20px;
+  padding-left: 20px;
+}
+
+.image-box {
+  height: 150px;
+  width: 190px;
+  background-image: url('image/Expand-Text-on-Hover-Using-CSS-640x480.png');
+  transition: background-image 0.3s ease;
+  background-size: contain;
+}
+
+.image-box:hover {
+  background-image: url('image/cat-saluting.jpg');
+}
+
+.color-btn{
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  border: none;
+  background-color: rgb(108, 0, 0);
+  color: white;
+  align-items: center;
+  border-radius: 20px;
+  padding: 10px 20px 10px 10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
